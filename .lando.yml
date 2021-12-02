@@ -1,0 +1,23 @@
+name: demo
+
+proxy:
+  app:
+    - cypress.demo.lndo.site
+
+services:
+  app:
+    type: php:8.0
+    via: apache
+    webroot: public
+    ssl: true
+    xdebug: true
+    build:
+      - composer self-update
+      - composer install
+  db:
+    type: mariadb:10.5.9
+    portforward: 37030
+    creds:
+      database: cypress_sf_user_group_demo
+      user: mariadb
+      password: mariadb
