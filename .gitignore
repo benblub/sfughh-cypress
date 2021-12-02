@@ -2,6 +2,10 @@
 /.idea
 ###> PHPStorm ###
 
+###> Node ###
+/node_modules
+###> Node ###
+
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
