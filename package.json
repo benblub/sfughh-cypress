@@ -1,0 +1,26 @@
+{
+  "name": "sfughh-cypress",
+  "version": "1.0.0",
+  "description": "My awesome demo Project",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "cypress": "^9.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benblub/sfughh-cypress.git"
+  },
+  "author": "Benjamin Knecht",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benblub/sfughh-cypress/issues"
+  },
+  "homepage": "https://github.com/benblub/sfughh-cypress#readme"
+}
